@@ -1,10 +1,126 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Alise home</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Ardatova Olga</title>
 </head>
 <body>
-<h1><center>Pam-pam</center></h1>
+<header class = "header">
+<div class="container">
+<nav>
+    <ul class = "nav_header"> 
+        <li><a href="#Contacts">Contact information</a></li>
+        <li><a href="#About">About Myself</a></li>  
+        <li><a href="#Languages">Languages</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Courses">Courses</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#Code">Code example</a></li>
+    </ul>  
+</nav>
+<div class="header_content">
+    <div class="imgheader">
+        <img src="./my_photo.jpg" alt="Photo Ardatova Olga" class="round" width="220" height="220">
+    </div>
+    <div class = 'header_title'>
+<h1>Ardatova Olga</h1>
+<h2>Junior Frontend Developer</h2>
+</div>
+</div>
+</div>
+</header>
+<main class = "main">
+    <div class="container main-container">
+        <h2 id="Contacts" class="main-container">Contact information</h2>
+    
+    <ul>
+        <li>Russia, Novosibirsk</li>
+        <li>E-mail: olgardatova@gmail.com</li>
+        <li>Telegram: @a_L1s_a</li>
+        <li>Discord: Triny #4369</li>
+    </ul>
+</div>
+    <div class="container main-container" >
+        <h2 id="About">About Myself</h2>
+        <div>Graduated from the University with a degree in Environmental Design.<br>
+             At the moment, I am interested in website development from all sides, including UI/UX.</div>
+    </div>
+    <div class="container main-container"><h2 id="Languages">Languages</h2>
+    <ul>
+        <li>Russian - Native</li>
+        <li>English - A2</li>
+        <li>Spanish - A1</li>
+    </ul>
+</div>
+    <div class="container main-container">
+        <h2 id="Skills">Skills</h2>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>VS Code</li>
+        <li>Git,GitHub</li>
+        <li>Adobe Photoshop, Illustrator</li>
+        <li>Figma</li>
+    </ul></div>
+    <div class="container main-container">
+    <h2 id="Courses">Courses</h2>
+    <ul>
+        <li>RS Schools Course «JavaScript/Front-end. Stage 0» (2022, in progress)</li>
+        <li>Hexlet:</li>
+            <ul> 
+                <li>HTML for beginners (2021, completed)</li>
+                <li>CSS for beginners (2021, completed)</li>
+            </ul>
+        <li>GeekBrains:</li>
+        <ul> 
+            <li>Figma (2021, completed)</li>
+            <li>Adobe Illustrator (2021, completed)</li>
+        </ul>
+        <li>htmlacademy</li>
+        <ul> 
+            <li>Basic HTML and CSS (2021, completed)</li>
+        </ul>
+    </ul>
+</div>
+<div class="container main-container">
+    <h2 id="Project">Project</h2>
+    <div>
+        <a href="https://TrinyT.github.io/rsschool-cv/" target="_blank">CV Project</a>
+    </div>
+    </div>
+    <div class="container main-container">
+    <h2 id="Code">Code example</h2>
+        <pre>
+    <code>
+        <?php
+            fscanf(STDIN, "%d", $N);
+            if(30>$N && $N>10) {
+            echo 0;
+            }
+            else if(50>$N) {
+            echo $N*$N;
+             }
+            else {
+            echo "Ошибка";
+            }
+        ?>
+    </code>
+</pre>
+</div>
+</main>
+<footer class = "footer">
+    <div> 
+        <a href="https://github.com/TrinyT" target="_blank">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="github_icon" width="26" height="26">
+            <p>GitHub</p>
+        </a>
+        <p>© 2022</p>
+        <a href="https://rs.school/js/" target="_blank">
+            <img src="./rs_school_js.svg" alt="Rs_school_icon" width="100" height="53">
+        </a>
+        </div>
+</footer>
 </body>
-</html>

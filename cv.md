@@ -23,4 +23,9 @@
     + Figma (2021, completed)
     + Adobe Illustrator (2021, completed)
 * htmlacademy:
-    + Base HTML and CSS (2021, completed)
+    + Basic HTML and CSS (2021, completed)
+
+## Languages
+* Russian - Native
+* English - A2
+* Spanish - A1

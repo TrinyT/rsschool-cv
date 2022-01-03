@@ -6,3 +6,10 @@
 **E-mail:** olgardatova@gmail.com
 
 
+## Skills
+* HTML5, CSS3
+* Git
+* VS Code
+* Adobe Photoshop, Illustrator
+* Figma
+

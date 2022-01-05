@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    align-items: center;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: rgb(250, 242, 243);
+    align-items: center;
+
+}
+
+.imgheader {
+    width: 220px;
+    height: 220px;
+    left: 64px;
+    top: 55px;
+}
+
+.projects {
+    display: flex;
+
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.junior {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.github {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my_github {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 80%;
+}
+
+.nav_header {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    position: fixed;
+    color: black;
+
+}
+
+.footer {
+    display: inline-block;
+    width: 1440px;
+    position: fixed;
+    top: 80%;
+    vertical-align: top;
+    justify-content: space-between
+}
